@@ -1,10 +1,10 @@
-# ⚡ Python File Compressor (pyfcomp)
+# Python File Compressor (pyfcomp)
 
 A robust, modern, and highly efficient file compression tool. Originally designed under the Unix philosophy of simplicity and specialization, **pyfcomp** has evolved into a complete multi-format compressor, offering both a command-line interface (CLI) and a user-friendly, auto-localized graphical user interface (GUI).
 
 ---
 
-## 🚀 Current Features
+## Current Features
 
 * **Smart Multi-Format Compression:**
   * **PDF:** Optimizes internal structures (removes duplicate objects, compresses fonts, and metadata) and optionally reduces the size of internal embedded images.
@@ -17,7 +17,7 @@ A robust, modern, and highly efficient file compression tool. Originally designe
 
 ---
 
-## 📊 Compression Level Matrix
+## Compression Level Matrix
 
 The system maps compression rates from **0** (minimum aggressiveness) to **5** (maximum space saving) custom-tailored per format:
 
@@ -30,7 +30,7 @@ The system maps compression rates from **0** (minimum aggressiveness) to **5** (
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 1. **Python Dependencies:**
    Using a virtual environment (venv) is highly recommended.
@@ -44,7 +44,7 @@ The system maps compression rates from **0** (minimum aggressiveness) to **5** (
 
 ---
 
-## 💻 How to Use
+## How to Use
 
 ### 1. Graphical Interface (GUI) - Recommended for manual usage
 
@@ -86,7 +86,7 @@ python pyfcomp.py <file_path> [options]
 
 ---
 
-## 🔮 Future Roadmap
+## Future Roadmap
 
 * **Batch Compression:** Support for selecting entire directories and compressing multiple files in a queue simultaneously in both GUI and CLI.
 * **Native Multithreading:** Internal parallel execution to compress PDF pages or multiple files from the queue.
@@ -94,7 +94,7 @@ python pyfcomp.py <file_path> [options]
 
 ---
 
-## 📄 License
+## License
 
 Copyright (c) 2026 João Paulo Silva Plöger.
 
